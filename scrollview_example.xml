@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#f3e5f5">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent" android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtLayoutHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="50dp"
+
+            android:text= "Name : Tony Stark"
+
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/imgTony"
+            />
+        <TextView
+            android:id="@+id/txtSecondLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="50dp"
+            android:text="Char:Ironman"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/imgTony"
+            android:layout_below="@id/txtLayoutHeader"
+            />
+            <TextView
+                android:id="@+id/txtThirdLine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="50dp"
+                android:text="Age:25"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/imgTony"
+                android:layout_below="@id/txtSecondLine"
+                />
+
+
+        <ImageView
+            android:id="@+id/imgTony"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/tony_strak"
+            android:layout_margin="12dp"
+
+            />
+
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent" android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtLayoutHeaderSteve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="50dp"
+
+                android:text= "Name : Steve Rogers"
+
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/imgSteve"
+                />
+            <TextView
+                android:id="@+id/txtSecondLineSteve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="50dp"
+                android:text="Char: Captain America"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/imgSteve"
+                android:layout_below="@id/txtLayoutHeaderSteve"
+                />
+            <TextView
+                android:id="@+id/txtThirdLineSteve"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="50dp"
+                android:text="Age:125"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/imgSteve"
+                android:layout_below="@id/txtSecondLineSteve"
+               />
+
+
+            <ImageView
+                android:id="@+id/imgSteve"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/captain_america"
+                android:layout_margin="12dp"
+
+                />
+
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent" android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtLayoutHeaderThor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="50dp"
+
+                android:text= "Name : Thor"
+
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/imgThor"
+                />
+            <TextView
+                android:id="@+id/txtSecondLineThor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="50dp"
+                android:text="Char: Thor"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/imgThor"
+                android:layout_below="@id/txtLayoutHeaderThor"
+                />
+            <TextView
+                android:id="@+id/txtThirdLineThor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="50dp"
+                android:text="Age:225"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/imgThor"
+                android:layout_below="@id/txtSecondLineThor"
+                />
+
+
+            <ImageView
+                android:id="@+id/imgThor"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/thor"
+                android:layout_margin="12dp"
+
+                />
+
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent" android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtLayoutHeaderHulk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="50dp"
+
+                android:text= "Name : Bruce Banner"
+
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/imgHulk"
+                />
+            <TextView
+                android:id="@+id/txtSecondLineHulk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="50dp"
+                android:text="Char:Hulk"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/imgHulk"
+                android:layout_below="@id/txtLayoutHeaderHulk"
+                />
+            <TextView
+                android:id="@+id/txtThirdLineHulk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="50dp"
+                android:text="Age:39"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/imgHulk"
+                android:layout_below="@id/txtSecondLineHulk"
+                />
+
+
+            <ImageView
+                android:id="@+id/imgHulk"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/hulk"
+                android:layout_margin="12dp"
+
+                />
+
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent" android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtLayoutHeaderPanther"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="50dp"
+
+                android:text= "Name : Black Panther"
+
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/imgPanther"
+                />
+            <TextView
+                android:id="@+id/txtSecondLinePanther"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="50dp"
+                android:text="Char:Black Panther"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/imgPanther"
+                android:layout_below="@id/txtLayoutHeaderPanther"
+                />
+            <TextView
+                android:id="@+id/txtThirdLinePanther"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="50dp"
+                android:text="Age:35"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/imgPanther"
+                android:layout_below="@id/txtSecondLinePanther"
+                />
+
+
+            <ImageView
+                android:id="@+id/imgPanther"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/black_panther"
+                android:layout_margin="12dp"
+
+                />
+
+        </RelativeLayout>
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent" android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtLayoutHeaderWidow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="50dp"
+
+                android:text= "Name : Natasha"
+
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/imgWidow"
+                />
+            <TextView
+                android:id="@+id/txtSecondLineWidow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="50dp"
+                android:text="Char: Black Widow"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_toRightOf="@id/imgWidow"
+                android:layout_below="@id/txtLayoutHeaderWidow"
+               />
+            <TextView
+                android:id="@+id/txtThirdLineWidow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="50dp"
+                android:text="Age:40"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="10dp"
+                android:layout_toRightOf="@id/imgWidow"
+                android:layout_below="@id/txtSecondLineWidow"
+                />
+
+
+            <ImageView
+                android:id="@+id/imgWidow"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/widow"
+                android:layout_margin="12dp"
+                />
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
