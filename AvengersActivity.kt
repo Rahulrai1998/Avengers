@@ -15,7 +15,7 @@ class AvengersActivity : AppCompatActivity() {
         setContentView(R.layout.scrollview_example)
         titleName = sharedPreferences.getString("Title","The Avengers")
 
-        title = titleName
+        title = titleNam
     }
 
 
